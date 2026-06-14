@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "firstName": "Emma",
+    "lastName": "Johnson",
+    "dateOfBirth": "2008-03-14",
+    "grade": 10
+  },
+  {
+    "id": 2,
+    "firstName": "Liam",
+    "lastName": "Smith",
+    "dateOfBirth": "2007-11-02",
+    "grade": 11
+  },
+  {
+    "id": 3,
+    "firstName": "Olivia",
+    "lastName": "Williams",
+    "dateOfBirth": "2009-06-21",
+    "grade": 9
+  },
+  {
+    "id": 4,
+    "firstName": "Noah",
+    "lastName": "Brown",
+    "dateOfBirth": "2006-09-30",
+    "grade": 12
+  },
+  {
+    "id": 5,
+    "firstName": "Ava",
+    "lastName": "Davis",
+    "dateOfBirth": "2008-01-17",
+    "grade": 10
+  }
+]

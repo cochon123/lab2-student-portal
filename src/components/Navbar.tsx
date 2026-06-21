@@ -1,7 +1,7 @@
 // ============================================================
 // Component: Navbar
-// Author:    cochon123
-// Date:      2026-06-14
+// Author:      Sehaj Sharma
+// Date:        2026-06-21
 // Description:
 //   Static top navigation bar for the New Generation High School
 //   student portal. Renders the school name and section links.
@@ -13,21 +13,21 @@
 import Link from "next/link";
 
 export default function Navbar() {
-  // Brand + section list (static, no props/state needed).
+  // Clean, professional slate-blue variant navbar configuration.
   return (
-    <header className="bg-indigo-700 text-white shadow-md">
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
-        <Link href="/" className="text-lg font-bold tracking-tight">
+    <header className="bg-slate-800 text-white shadow-sm">
+      <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+        <Link href="/" className="text-base font-semibold tracking-wide hover:text-slate-200">
           New Generation High School
         </Link>
-        <ul className="flex gap-6 text-sm font-medium">
+        <ul className="flex items-center gap-5 text-xs font-semibold uppercase tracking-wider">
           <li>
-            <Link href="/" className="hover:text-indigo-200">
+            <Link href="/" className="text-slate-300 hover:text-white transition-colors">
               Students
             </Link>
           </li>
           <li>
-            <Link href="/#add" className="hover:text-indigo-200">
+            <Link href="/#add" className="text-slate-300 hover:text-white transition-colors">
               Add Student
             </Link>
           </li>

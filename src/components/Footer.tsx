@@ -20,7 +20,7 @@ export default function Footer() {
         <h2 className="mb-2 text-base font-semibold text-white">
           New Generation High School
         </h2>
-        <p>123 Future Scholars Avenue, Calgary, AB T2P 1J9</p>
+        <p>124 Future Scholars Avenue, Calgary, AB T2P 1J9</p>
         <p>Phone: (403) 555-0182 &middot; Email: info@ngshigh.ca</p>
         <p className="mt-2 text-gray-500">
           &copy; {new Date().getFullYear()} New Generation High School. All
